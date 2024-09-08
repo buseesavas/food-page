@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 32px;
+  gap: 48px;
+  margin-inline: auto;
+  max-width: 1110px;
+}
+
+ul {
+  list-style: none;
+}
+.user-info a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.user-info img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.nav a {
+  color: #212121;
+  text-decoration: none;
+}
+.nav img {
+  margin-left: 5px;
+}
+
+.big-fat-cheesy-burger-recipes {
+  background-image: url("../img/big-fat-cheesy-burger-recipes-bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  max-width: 1440px;
+  margin-bottom: 64px;
+  margin-inline: auto;
+  text-align: center;
+  padding: 260px;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 81px;
+  letter-spacing: -0.8999999761581421px;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  border: none;
+  width: auto;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 40px;
+  background-color: #fd7e14;
+  padding-block: 16px;
+  padding-inline: 64px;
+}
+.btn a {
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.menu {
+  margin-inline: auto;
+  max-width: 1110px;
+  margin-block: 112px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.menu ul li img {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.latest-recipes {
+  margin-inline: 165px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.card img {
+  margin-bottom: 8px;
+}
+
+h5 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+  color: #212121;
+}
+
+h6 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #212121;
+  max-width: 257px;
+}
+
+.cards-btn {
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  padding-inline: 48px;
+  padding-block: 16px;
+  border: 1px solid #212121;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+  width: 224px;
+  margin-inline: auto;
+}
+
+.cards-btn a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.inbox {
+  background-image: url("../img/inbox-bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-block: 96px;
+  padding-inline: 342px;
+  margin-top: 80px;
+}
+
+.input-group a {
+  background-color: #fd7e14;
+  width: 63px;
+  align-content: center;
+  border-radius: 0px 2px 2px 0px;
+}
+
+.input-group a img {
+  margin-inline: auto;
+  display: flex;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: white;
+  max-width: 426px;
+  margin-bottom: 16px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.input-group {
+  width: 327px;
+  display: flex;
+  height: 48px;
+  margin-inline: auto;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+}
+
+.input-group input {
+  border: none;
+  width: 100%;
+  border-radius: 2px 0px 0px 2px;
+}
+
+.float-l {
+  float: left;
+}
+.float-r {
+  float: right;
+}
+
+.strawberry-pancake {
+  display: flex;
+  margin-inline: 165px;
+  margin-top: 120px;
+}
+
+.strawberry-pancake-text {
+  margin-top: 81px;
+}
+
+.strawberry-pancake-text p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.strawberry-pancake-text p img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+h2 {
+  font-family: " Montserrat";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  margin-top: 16px;
+}
+
+.strawberry-pancake-btn {
+  background: #fd7e14;
+  display: inline-block;
+  padding-inline: 64px;
+  padding-block: 16px;
+  border-radius: 3px;
+  margin-top: 32px;
+}
+
+.strawberry-pancake-btn a {
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.featured-collections {
+  margin-inline: 165px;
+  margin-top: 200px;
+  margin-bottom: 80px;
+}
+.featured-collections-cards {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.featured-collections-card {
+  position: relative;
+}
+.featured-collections-card img {
+  border-radius: 10px;
+  display: block;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: left;
+  margin-top: 16px;
+}
+
+.featured-collections-card p {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #212121;
+  background-color: white;
+  padding-inline: 16px;
+  padding-block: 4px;
+  border-radius: 3px;
+  border: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+  padding-inline: 165px;
+  margin-bottom: 40px;
+  border-top: 1px solid #eaeaea;
+  padding-top: 56px;
+}
+.fabrx-logo-and-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fabrx-logo-and-links ul {
+  display: flex;
+  gap: 56px;
+}
+
+.footer-social-media-links-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-media-links ul {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-social-media-links-group p {
+  color: #807e7e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
