@@ -108,7 +108,7 @@ h1 {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 18px;
   margin-top: 32px;
 }
 
